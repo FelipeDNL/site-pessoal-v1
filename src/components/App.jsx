@@ -26,7 +26,7 @@ function App() {
             </div>
 
             <Routes>
-              <Route path="/" element={ <Inicial/> } />
+              <Route path="/felipednl.github.io" element={ <Inicial/> } />
               <Route path='/Inicial' />
               <Route path="/Curriculo" element={ <PaginaCurriculo/> } />
               <Route path='/Portifolio' element={ <PaginaPortifolio/> } />
