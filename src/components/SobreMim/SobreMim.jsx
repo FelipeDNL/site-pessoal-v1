@@ -13,7 +13,12 @@ const SobreMim = () => {
                 <img src="./felipe.png" class="img-fluid rounded-circle" style={{ marginTop: 25, width: '70%' }} />
             </div>
 
-            <div style={{ margin: '5%', marginTop: '10%' }}>
+            <p className="d-flex justify-content-center" style={{marginTop: 15}}>
+                <h4>Felipe Davi</h4>
+                
+            </p>
+
+            <div style={{ margin: '5%', marginTop: 20 }}>
 
                 <div class="input-group mb-3">
                     <span class="input-group-text" id="basic-addon1">
@@ -21,7 +26,7 @@ const SobreMim = () => {
                             <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"></path>
                         </svg>
                     </span>
-                    <input class="form-control text-truncate text-decoration-none" placeholder="Felipe.dn@aluno.ifsc.edu.br" aria-label="Felipe.dn@aluno.ifsc.edu.br" aria-describedby="basic-addon1" />
+                    <input class="form-control text-truncate text-decoration-none" placeholder="Felipe.dn@aluno.ifsc.edu.br" aria-label="Felipe.dn@aluno.ifsc.edu.br" aria-describedby="basic-addon1" disabled/>
                 </div>
 
                 <div class="input-group mb-3">
@@ -30,7 +35,7 @@ const SobreMim = () => {
                             <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.5.5 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11z"></path>
                         </svg>
                     </span>
-                    <input type="text" class="form-control" placeholder="IFSC - Campus Lages" aria-label="IFSC - Campus Lages" aria-describedby="basic-addon1" />
+                    <input type="text" class="form-control" placeholder="IFSC - Campus Lages" aria-label="IFSC - Campus Lages" aria-describedby="basic-addon1" disabled/>
                 </div>
 
                 <div class="input-group mb-3">
@@ -39,7 +44,7 @@ const SobreMim = () => {
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"></path>
                         </svg>
                     </span>
-                    <input type="text" class="form-control" placeholder="Lages - SC" aria-label="Lages - SC" aria-describedby="basic-addon1" />
+                    <input type="text" class="form-control" placeholder="Lages - SC" aria-label="Lages - SC" aria-describedby="basic-addon1" disabled/>
                 </div>
 
             </div>

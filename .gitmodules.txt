@@ -1,3 +1,0 @@
-[submodule "path_to_submodule"] 
-  path = C:\Users\Felip\OneDrive\Documentos\1 - Ciência da Computação\Tópicos Especiais em Programação\felipednl.github.io
-  url = git://https://github.com/FelipeDNL/felipednl.github.io/

@@ -1,17 +1,24 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 
 const NavBar = () => {
+  const location = useLocation();
+
   return (
-    <ul class="nav nav-pills nav-fill">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="/">Sobre Mim</a>
+    <ul className="nav nav-pills nav-fill">
+
+      <li className="nav-item">
+        <a className={`nav-link ${location.pathname === '/' ? 'active' : ''}`} aria-current="page" href="/">Sobre Mim</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/Curriculo">Currículo</a>
+
+      <li className="nav-item">
+        <a className={`nav-link ${location.pathname === '/Curriculo' ? 'active' : ''}`} href="/Curriculo">Currículo</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/Portifolio">Portifólio</a>
+
+      <li className="nav-item">
+        <a className={`nav-link ${location.pathname === '/Portifolio' ? 'active' : ''}`} href="/Portifolio">Portifólio</a>
       </li>
+
     </ul>
   );
 };

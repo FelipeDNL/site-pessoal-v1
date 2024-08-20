@@ -9,90 +9,56 @@ const Portifolio = () => {
 
             <div style={{marginBottom: '2%'}}>
                 <h4>Portifólio</h4>
-                <h>Aqui é apresentado meu portifólio, com projetos pessoais e academicos hospedados no github, com o código aberto.</h>
+                <h>Aqui é apresentado alguns dos meus com projetos pessoais e academicos hospedados no github, com o código aberto.</h>
             </div>
 
-            <div className="d-flex justify-content-center gap-2" style={{marginBottom: '2%'}}>
+            <div className="d-flex justify-content-center gap-4" style={{marginBottom: '2%'}}>
 
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '25rem' }}>
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                        <Card.Title>Chat Multicast Criptografado</Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted">Java</Card.Subtitle>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
+                            Chat multicast criptografado implementado em Java.
                         </Card.Text>
-                        <Card.Link href="#">Card Link</Card.Link>
-                        <Card.Link href="#">Another Link</Card.Link>
+                        <Card.Link href="https://github.com/FelipeDNL/Chat_Multicast_Criptografado" target='_blank'>Link para Repositório</Card.Link>
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '25rem' }}>
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                        <Card.Title>Aplicativo Com React e Firebase</Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted">React</Card.Subtitle>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
+                            Aplicativo simples de registro de contas feito em React com Firebase como banco de dados.
                         </Card.Text>
-                        <Card.Link href="#">Card Link</Card.Link>
-                        <Card.Link href="#">Another Link</Card.Link>
-                    </Card.Body>
-                </Card>
-
-                <Card style={{ width: '18rem' }}>
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
-                        </Card.Text>
-                        <Card.Link href="#">Card Link</Card.Link>
-                        <Card.Link href="#">Another Link</Card.Link>
+                        <Card.Link href="https://github.com/FelipeDNL/Trabalho2_React_Firebase" target='_blank'>Link para Repositório</Card.Link>
                     </Card.Body>
                 </Card>
 
             </div>
 
-            <div className="d-flex justify-content-center gap-2">
+            <div className="d-flex justify-content-center gap-4">
 
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '25rem' }}>
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                        <Card.Title>Sistema de Gerencimento de Registros</Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted">Java - MySQL</Card.Subtitle>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
+                            Sitema de gerencimento de registros com conexão em um banco de dados MySQL.
                         </Card.Text>
-                        <Card.Link href="#">Card Link</Card.Link>
-                        <Card.Link href="#">Another Link</Card.Link>
+                        <Card.Link href="https://github.com/FelipeDNL/Sistema_de_Gerenciamento_de_Registros" target='_blank'>Link para Repositório</Card.Link>
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '25rem' }}>
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                        <Card.Title>Esse Site</Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted">React</Card.Subtitle>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
+                            Site pessoal de currículo e portifólio feito em react e hospedado usando gh-pages.
                         </Card.Text>
-                        <Card.Link href="#">Card Link</Card.Link>
-                        <Card.Link href="#">Another Link</Card.Link>
-                    </Card.Body>
-                </Card>
-
-                <Card style={{ width: '18rem' }}>
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
-                        </Card.Text>
-                        <Card.Link href="#">Card Link</Card.Link>
-                        <Card.Link href="#">Another Link</Card.Link>
+                        <Card.Link href="https://github.com/FelipeDNL/felipednl.github.io" target='_blank'>Link para Repositório</Card.Link>
                     </Card.Body>
                 </Card>
                 
