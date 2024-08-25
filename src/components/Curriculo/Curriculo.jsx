@@ -31,7 +31,7 @@ const Curriculo = () => {
             </ul>
 
             <div>
-                <a href="./Felipe Davi CV" download="How-to-download-file.pdf">
+                <a href="./FelipeDaviCV.pdf" download="./FelipeDaviCV.pdf">
                     <button>Baixar Currículo</button>
                 </a>
             </div>
