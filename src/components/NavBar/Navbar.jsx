@@ -1,25 +1,38 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
+import { Navbar, Nav } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 
 const NavBar = () => {
-  const location = useLocation();
 
   return (
-    <ul className="nav nav-pills nav-fill">
+    <div className='navbar'>
 
-      <li className="nav-item">
-        <a className={`nav-link ${location.pathname === '/' ? 'active' : ''}`} aria-current="page" href="/">Sobre Mim</a>
-      </li>
+      <Navbar bg="navbar" expand="lg">
 
-      <li className="nav-item">
-        <a className={`nav-link ${location.pathname === '/Curriculo' ? 'active' : ''}`} href="/Curriculo">Currículo</a>
-      </li>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
 
-      <li className="nav-item">
-        <a className={`nav-link ${location.pathname === '/Portifolio' ? 'active' : ''}`} href="/Portifolio">Portifólio</a>
-      </li>
+          <Nav className="mr-auto">
 
-    </ul>
+            <LinkContainer to="/">
+                <Nav.Link>Sobre Mim</Nav.Link>
+              </LinkContainer>
+
+              <LinkContainer to="/curriculo">
+                <Nav.Link>Curriculo</Nav.Link>
+              </LinkContainer>
+              
+              <LinkContainer to="/portifolio">
+                <Nav.Link>Portifolio</Nav.Link>
+              </LinkContainer>
+            
+          </Nav>
+
+        </Navbar.Collapse>
+
+      </Navbar>
+
+    </div>
   );
 };
 
